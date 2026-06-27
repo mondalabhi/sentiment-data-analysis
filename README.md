@@ -43,10 +43,8 @@ cd sentiment-data-analysis
 Install dependencies:
 Make sure to install common NLP and data science libraries:
 
-Bash
-pip install pandas numpy matplotlib seaborn nltk sklearn
-Download the Dataset:
-Download the dataset from Kaggle's IMDB Dataset of 50K Movie Reviews and place it in your local directory (or let the notebook fetch it directly if using the Kaggle API).
+git clone [https://github.com/mondalabhi/sentiment-data-analysis.git](https://github.com/mondalabhi/sentiment-data-analysis.git)
+cd sentiment-data-analysis
 
 📈 Roadmap & Core Workflow
 The notebook follows a standard NLP pipeline:
