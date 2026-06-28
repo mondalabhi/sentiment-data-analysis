@@ -15,10 +15,9 @@ graph TD
     A[Raw IMDB Reviews] --> B[Data Cleaning]
     B --> C[Text Preprocessing]
     C --> D[EDA & Visualizations]
-    D --> E[Vectorization (BOW)]
-    E --> F[Dimensionality Reduction (PCA)]
+    D --> E["Vectorization (BOW)"]
+    E --> F["Dimensionality Reduction (PCA)"]
     F --> G[Sentiment Scatter Plot]
-```
 
 ---
 
