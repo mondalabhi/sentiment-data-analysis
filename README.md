@@ -12,15 +12,15 @@ This project implements a structured NLP pipeline designed to clean, preprocess,
 
 ```mermaid
 graph TD
-    A["Raw IMDB Reviews"] --> B["Data Cleaning"]
-    B --> C["Text Preprocessing"]
-    C --> D["EDA & Visualizations"]
-    D --> E["Vectorization (BOW)"]
-    E --> F["Dimensionality Reduction (PCA)"]
-    F --> G["Sentiment Scatter Plot"]
+    A[Raw IMDB Reviews] --> B[Data Cleaning]
+    B --> C[Text Preprocessing]
+    C --> D[EDA & Visualizations]
+    D --> E[Vectorization (BOW)]
+    E --> F[Dimensionality Reduction (PCA)]
+    F --> G[Sentiment Scatter Plot]
+```
 
-
-
+---
 ## 🛠️ Pipeline Details
 
 The implementation is broken down into five main steps:
